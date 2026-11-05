@@ -11,26 +11,26 @@ else:
     average = (math + english + python) / 3
 
 
-if average >= 80:
-    grade = "A+"    
+    if average >= 80:
+        grade = "A+"    
 
-elif average >= 70 and average <= 79:
-    grade = "A"   
+    elif average >= 70 and average <= 79:
+        grade = "A"   
 
-elif average >= 60 and average <= 69:
-    grade = "A-"    
+    elif average >= 60 and average <= 69:
+        grade = "A-"    
 
-elif average >= 50 and average <= 59:
-    grade = "B"   
+    elif average >= 50 and average <= 59:
+        grade = "B"   
 
-elif average >= 40 and average <= 49:
-    grade = "C"   
+    elif average >= 40 and average <= 49:
+        grade = "C"   
 
-else:
-    grade = "F"
+    else:
+        grade = "F"
 
 
-print(f"Student Name:{name}")
-print(f"Average Marks:{average}")
-print(f"Final Grade: {grade}")
+    print(f"Student Name:{name}")
+    print(f"Average Marks:{average}")
+    print(f"Final Grade: {grade}")
 
